@@ -1,4 +1,10 @@
-# react
+# counter-react
+
+> Counter App :ghost: made in React JS :smile:
+
+# Screenshot
+
+![counter-react](http://imgur.com/3xGpajI.png)
 
 ## License
 
