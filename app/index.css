@@ -1,0 +1,39 @@
+body {
+	background: rgba(18, 13, 66, 0.78);
+}
+
+h1 {
+	color: white;
+	font-size: 5em;
+	text-align: center;
+	font-family: 'Verdana';
+	text-shadow: 5px 8px 3px #333;
+}
+
+#app {
+	display: flex;
+}
+
+#app > * {
+	flex: 1;
+}
+
+button  {
+    color: #BADA55;
+    padding: 8px 15px;
+    font-size: 24px;
+    background: transparent;
+    font-family: cursive;
+    overflow: hidden;
+    border-color: transparent;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all .5s cubic-bezier(.02,.01,.47,1);
+    outline: none;
+}
+
+button:hover {
+    color: #00e0ba;
+    border-color: transparent;
+    border-bottom: 1px solid #1ba74f;
+}
